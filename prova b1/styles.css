@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #8A1B44;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-placeholder {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.header-placeholder h1 {
+    font-size: 36px;
+    color: #bbb;
+}
+
+main {
+    padding: 20px;
+    background-color: white;
+}
+
+.founder-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #F9F6F1;
+}
+
+.founder-section h2 {
+    font-size: 28px;
+    color: #8A1B44;
+    margin-bottom: 20px;
+}
+
+.founder-section p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.links-section {
+    padding: 40px 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.grid-item {
+    width: 100%;
+    padding: 20px;
+    background-color: #E9E7E4;
+    text-align: center;
+    border: 2px solid #8A1B44;
+    transition: background-color 0.3s;
+}
+
+.grid-item a {
+    color: #8A1B44;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.grid-item:hover {
+    background-color: #D8D6D3;
+}
